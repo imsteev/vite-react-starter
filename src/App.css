@@ -1,0 +1,11 @@
+/* make all your content fit in a subsection of the screen */
+#root {
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+body {
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
