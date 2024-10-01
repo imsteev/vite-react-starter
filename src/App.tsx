@@ -23,6 +23,10 @@ function App() {
         </a>
         .
       </p>
+      <p>
+        Some default configurations: Pointing to backend API at{" "}
+        {import.meta.env.VITE_API_URL}
+      </p>
       <br />
       <div className="mt-4">
         <h4>Rendering static assets</h4>
